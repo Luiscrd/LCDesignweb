@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2014-12-02T16:34:01+0100" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/movimiento.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+<style type="text/css"> 
+
+body{
+	margin: 0;
+	padding-top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-attachment: fixed;
+	}
+	
+</style>
+</head>
+<body background="{{ STATIC_URL }}img/fondonosotros3_2.jpg" onload="aplica()">
+	<div id="divprincipal">
+	
+		<div id="divcontenido">
+		<div id="tituloaplicaciones"><img src="{{ STATIC_URL }}/img/apli6.png" id="apli1"></div>
+		<div id="textoaplicaciones">¿QUÉ ES EL DISEÑO Y DESARROLLO DE APLICACIONES WEB?
+		El diseño y desarrollo de aplicaciones web consiste en implementar sus necesidades, objetivos o ideas en Internet utilizando las tecnologías más idóneas según su proyecto. 
+		Las aplicaciones web ofrecen servicios a los usuarios de Internet que acceden utilizando un navegador web como I.Explorer, Firefox o Safari entre otros, dirigiéndose a una dirección de Internet donde obtendrán los servicios que buscan.
+		Las aplicaciones web pueden ser de acceso público como tiendas virtuales, diarios digitales, portales de Internet,... o de acceso restringido como son las intranets para mejorar las gestiones internas de su empresa como el reporte de horas de su personal, gestión de proyectos y tareas, control de presencia, gestores documentales, o el uso de extranets para aumentar y mejorar el servicio con sus distribuidores, clientes, proveedores, comerciales y colaboradores externos.
+		Cada vez es más necesario adaptar el software y los sistemas online a la lógica de negocio de cada cliente.
+		Por este motivo, no sólo es necesario que su empresa disponga de una web corporativa, un comercio virtual o una extranet para gestionar los pedidos de sus clientes o distribuidores, sino que es muy aconsejable una integración total con sus sistemas propietarios de facturación, nóminas, proveedores, previsiones, etc. para obtener un sistema integral y eficiente en todas las áreas de su corporación.
+		</div>
+		</div>
+		<img src="{{ STATIC_URL }}/img/codigolcd.png" id="codigolcd">
+		<img src="{{ STATIC_URL }}/img/ejemplo1.png" id="ejemploapli">
+		<img src="{{ STATIC_URL }}/img/ubuntu.png" id="ubuntu" onclick="mostrarcli5(textoubuntu)">
+		<img src="{{ STATIC_URL }}/img/jquery.png" id="jquery">
+		
+		
+		</div>
+		
+		
+		
+		<div id="divcabecera">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo" onclick="inicio()"></div>
+			<table id="tablacabecera">
+				<tr>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="diseno()">
+					DISEÑO WEB</td>
+					<td class="botonescabe2">APLICACIONES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="clientes()">
+					CLIENTES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="nosotros()">
+					NOSOTROS</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="contacto()">
+					CONTACTO</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="divpie">LCDesign  -  Diseño y Desarrollo de aplicaciones con tecnologia web  -  LCDesign@outlook.es</div>
+</body>
+</html>

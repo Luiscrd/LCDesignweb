@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2015-01-14T17:10:36+0100" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio_movil.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio_movil.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" />
+</head>
+<body background="{{ STATIC_URL }}img/fond6.jpg">
+<div id="div_cargando">
+	<img src="{{ STATIC_URL }}/img/lcde.png" id="logo_cargando">
+	<img src="{{ STATIC_URL }}/img/car.gif" id="cargando">
+	<img src="{{ STATIC_URL }}/img/loading_bar.gif" id="cargando_bar">
+	<h2 id="texto_cargando">loading<br>please wait...</h2>
+</div>
+	<div id="divcabecera">
+			<div id="caja_div_cabecera">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo"></div>
+			<div id="div_icono_menu"><img src="{{ STATIC_URL }}/img/menu_icon2.png" id="icono_menu" onclick="subir_bajar()"></div>
+			</div>
+			<div id="menu_desplegable">
+				<ul id="lista_menu">
+					<li class="botones_menu_pul">Diseño web</li>
+					<li class="botones_menu_pul">Aplicaciones web</li>
+					<li class="botones_menu_pul">Clientes</li>
+					<li class="botones_menu_pul">Nosotros</li>
+					<li class="botones_menu_pul">Contacto</li>
+				</ul>
+			</div>
+	</div>
+	
+	<div id="divcuadrotexto1">Si tu puedes imaginarlo...</div>
+	<div id="divcuadrotexto2">... Nosotros podemos crearlo</div>
+	
+	<div id="divdiseno"><div class="letrerodiseno" id="disenoweb">DISEÑO WEB</div><img src="{{ STATIC_URL }}/img/diseno.jpg" class="fotodiseno">En LCDesign ponemos a su disposicion dos planes de diseño web, uno basico y uno avanzado.</div>
+	
+	<div id="divcaja_2"><img src="{{ STATIC_URL }}/img/logo.png" class="fotocaja2">Somos jóvenes emprendedores, que hemos recibido la mejor formación en programación de última tecnología.<br>Estamos especializados en creación de aplicaciones web, trabajamos con Html, Css, Javascript, Python, Django, etc...<br><br>Si tienes algún proyecto en mente, o simplemente te gustaría tener tu propia web para darte a conocer, no dudes en contactar con nosotros, atenderemos tus peticiones y te asesoraremos sin compromiso.</div>
+		
+		<div id="divtextocaja3"><div id="encabezadocaja3">¿QUE TE OFRECEMOS?</div>
+			<div id="textocaja3">
+			- Prcio asequible.<br>
+			- Servicio a medida.<br>
+			- Mantenimiento web.<br>
+			- Atención personalizada.<br>
+			- 1 año de alojamiento gratuito.<br>
+			- 1 subdominio ".lcdsignweb.es".
+			
+			</div>
+			<div id="piecaja3">LCDesignWeb</div>
+			</div>
+	
+			<div id="divpie"><a href="/inicio" id="version_completa">Ir a version completa</a></div>
+			
+<script type="text/javascript" >
+function no_carga() {
+	$("#div_cargando").css("display","none")
+	setTimeout("mover(divcuadrotexto1)",1000);
+	}
+window.onload = no_carga
+</script>
+</body>
+</html>

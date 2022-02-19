@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+<title>LCDesignWeb</title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2015-07-27T13:57:46+0200" >
+<meta name="copyright" content="">
+<meta name="keywords" content="HTML5, CSS3, Javascript">
+<meta name="description" content="Diseño de aplicaciones con tecnología web">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/inicio.css"/>
+<script type="text/javascript" src="{{ STATIC_URL }}js/inicio.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="{{ STATIC_URL }}img/logopeq.png">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=3.0" />
+</head>
+<body id="fondo_cons">
+		<img src="{{ STATIC_URL }}img/LCDlogo.png" alt="Logo Corporativo" id="lcdlogo_cons">
+	
+
+</body>
+</html>

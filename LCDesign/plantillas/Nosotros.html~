@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2014-12-17T15:24:17+0100" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/movimiento.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+<style type="text/css"> 
+
+body{
+	margin: 0;
+	padding-top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 -150px;
+	background-attachment: fixed;
+	}
+	
+</style>
+</head>
+<body background="{{ STATIC_URL }}img/fondonosotros12.jpg" onload="cargar(div_cargando)">
+	<div id="div_cargando">
+	<img src="{{ STATIC_URL }}/img/lcde.png" id="logo_cargando">
+	<img src="{{ STATIC_URL }}/img/car.gif" id="cargando">
+	<img src="{{ STATIC_URL }}/img/loading_bar.gif" id="cargando_bar">
+	<h2 id="texto_cargando">loading<br>please wait...</h2>
+	</div>
+	<div id="divprincipal">
+	<div id="nosotros">
+		<img src="{{ STATIC_URL }}/img/yobuena.png" id="logonosotros">
+		<div id="textonosotros" class="textosnosotros">Hola, mi nombre es Luis, soy la persona al frente de LCDesign, intento recordar cual fue mi primer contacto con la informática, pero eso es algo que ya queda demasiado lejos...
+		Recuerdo mi primer ordenador, heredado de mi padre, el cual trabajaba de Delineante, con programas que exigían mucho rendimiento a los ordenadores de la época, por lo que cada poco tiempo tenía la necesidad de sustituirlo por uno nuevo y mejor, como es lógico yo heredaba dichos ordenadores, no recuerdo la marca del ordenador en concreto, ni tampoco podría deciros que procesador montaba porque en esa época no llegaba a tanto, digamos que yo tenía unos escasos 8 años, por aquel tiempo "Microsoft" apenas había sacado su primer sistema operativo.
+		Recuerdo de esa pantalla negra con letras blancas llamada “MS-DOS”, con la cual ya tenía los conocimientos necesarios como para introducir mi disquete de 1/4 con mis juegos favoritos como "Indiana Jones" o "Monquey Island", ejecutarlos y ponerme a jugar a ellos, tengo que añadir que en aquella época prácticamente en ninguna casa tenían un ordenador, éramos pocos los privilegiados, es algo que me ha llevado a tener unos conocimientos algo mas avanzados en el tema de la informática por méritos propios y sin ningún tipo de estudio, aclaro ésto para daros a entender que quizá fue la informática la que me eligió a mí en lugar de yo a ella.
+		<div class="bototon_sig_noso" onclick="sigiente2(textonosotros2)">Siguiente</div></div>
+		<div id="textonosotros2" class="textosnosotros">A lo largo de los años he ido practicando con el uso del diseño gráfico pero no de modo profesional, casualmente un día llego a mí correo una convocatoria para un certificado de profesionalidad en "Diseño de aplicaciones con tecnología web" que impartía la escuela GradoMaster en San Martín de Valdeiglesias.
+		Tras darle unas cuantas vueltas pensé "¿y por qué no?", así que decidí presentarme a la convocatoria, de la cual en un principio no fuí seleccionado, quedándome casi a las puertas para entrar.
+		Cuál fue mi sorpresa cuando unos días después de que el curso comenzara recibí una llamada, la llamada decía que había quedado un puesto libre, y que si aun seguía interesado. Así que sin dudarlo un segundo me incorporé con mis compañeros y comenzamos el curso, el cual según pasaban los días ya iba dándome cuenta que esto era lo mío, me gustaba lo que hacía y me sentía bien haciéndolo. 
+		El curso finalizó opté a uno de los contratos que la empresa ofrecia con este, un tiempo que me ha servido para perfeccionar mucho mas los conocimientos recibidos, tras todo esto fue cuando decidí empezar con este proyecto. Así es como surgió LCDesign.
+		<div class="bototon_sig_noso" onclick="sigiente2(textonosotros3)">Agradecimientos</div>
+		</div>
+		<div id="textonosotros3" class="textosnosotros"><h2>AGRADECIMIENTOS:</h2>
+		Tengo que dar mis agradecimientos a Gradomaster por la formación recibida, y sobre todo a mis profesores "Juan Carlos Roldán" y "Antonio Duarte" que me han enseñado todo lo que sé, esto sin ellos no habría sido posible.
+		También quiero mostrar mis agradecimientos a "Mónica Minguela" puesto que me ayudo mucho a la hora de conseguir una plaza, y a "Matilde" por todo el apoyo y la ayuda recibida.
+		Por último quiero agradecerles a todos los compañeros que estuvieron día a día en clase conmigo, y los que compartieron tambien los meses de contrato, sin vosotros eso no habría sido igual de divertido y se que echare de menos trabajar con vosotros, os deseo mucha suerte en vuestros proyectos futuros, y saber que aquí tenéis un compañero para lo que necesitéis.
+		</div>
+		</div>
+		<!--<img src="{{ STATIC_URL }}/img/lcdesignpng.png" id="logonosotros2">-->
+	
+		<div id="divcabecera">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo"></div>
+			<table id="tablacabecera">
+				<tr>
+					
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="diseno()">DISEÑO WEB</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="aplicaciones()">APLICACIONES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="clientes()">CLIENTES</td>
+					<td class="botonescabe3">NOSOTROS</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="contacto()">CONTACTO</td>
+				</tr>
+			</table>
+		</div>
+		
+	</div>
+	<div id="divpie">LCDesign  -  Diseño y Desarrollo de aplicaciones con tecnologia web  -  LCDesign@outlook.es</div>
+</body>
+</html>

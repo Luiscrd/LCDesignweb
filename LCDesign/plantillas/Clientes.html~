@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2015-02-11T17:18:22+0100" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/movimiento.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+<style type="text/css"> 
+
+body{
+	margin: 0;
+	padding-top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-attachment: fixed;
+	}
+	
+</style>
+</head>
+<body background="{{ STATIC_URL }}img/fond11.jpg" onload="cargar(div_cargando)">
+	<div id="div_cargando">
+	<img src="{{ STATIC_URL }}/img/lcde.png" id="logo_cargando">
+	<img src="{{ STATIC_URL }}/img/car.gif" id="cargando">
+	<img src="{{ STATIC_URL }}/img/loading_bar.gif" id="cargando_bar">
+	<h2 id="texto_cargando">loading<br>please wait...</h2>
+	</div>
+
+	<div id="divprincipal">
+		<img src="{{ STATIC_URL }}/img/cli.png" id="logo_clientes">
+		<img src="{{ STATIC_URL }}/img/lcdesignpng.png" id="logonosotros2">
+		<div id="divcontenido">
+		
+		<div class="texcli1" id="textocli1">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli1,cli1)">x</div>
+		<a href="http://ves.photography/" target="_blank"><img src="{{ STATIC_URL }}/img/Logoves2.jpg" id="logoves"></a>
+		<div class="textotexcli1">VESimageworks es una empresa dedicada al sector audiovisual.
+		Nos solicito una web del tipo avanzado con una zona de administración que le permitiera cambiar el contenido a su antojo sin necesidad de cambiar el código.
+		Su idea inicial era una web sencilla sin mucho color ni efectos, algo moderno pero informal.
+		Le asesoramos y le mostramos como seria nuestra idea inicial, una cabecera blanca con transparencia, botones de un color neutro y un tipo de fuente sencilla y discreta.
+		Tras realizar unos pequeños cambios al gusto del cliente acordamos el aspecto de la web.
+		Basándonos en esto comenzamos con el proyecto.
+		</div>
+		<div id="siguiente1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli1,textocli2)">SIGUIENTE ></div>
+		</div>
+		
+		<div class="texcli1" id="textocli2">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli2,cli1)">x</div>
+		<div class="textotexcli1">
+		Empezamos por la zona de galerías donde basándonos en las solicitudes del cliente jugamos con la altura de las miniaturas para así conseguir una apariencia menos simétrica.
+		<img src="{{ STATIC_URL }}/img/galeriasves.png" class="galeriasves">
+		Para esto creamos 3 columnas independientes con un pequeño margen, asociando las imágenes a una base de datos y poniendo la altura de la imagen de forma variable.
+		</div>
+		<div id="siguiente2" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli2,textocli3)">SIGUIENTE ></div>
+		<div id="anterior1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli2,textocli1)">< ANTERIOR</div>
+		</div>
+		
+		<div class="texcli1" id="textocli3">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli3,cli1)">x</div>
+		<div class="textotexcli1">
+		En la zona "Films" dedicada a vídeos, también la asociamos la base de datos en la cual el cliente podría introducir las url de youtube e introducir tantos vídeos como desease.
+		<img src="{{ STATIC_URL }}/img/filmsves.png" class="galeriasves">
+		Los cuales se irán posicionando uno debajo del otro sin limite alguno.
+		Solucionamos su idea de una forma practica y sencilla.
+		</div>
+		<div id="siguiente2" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli3,textocli4)">SIGUIENTE ></div>
+		<div id="anterior1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli3,textocli2)">< ANTERIOR</div>
+		</div>
+		
+		<div class="texcli1" id="textocli4">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli4,cli1)">x</div>
+		<div class="textotexcli1">
+		En la zona de "Noticias" al igual que en la de vídeos asociamos el contenido de esta a la base de datos para permitir al usuario seleccionar un titulo, subir una imagen y añadir un texto de cada noticia.
+		<img src="{{ STATIC_URL }}/img/noticiasves.png" class="galeriasves">
+		De la misma manera que en caso anterior, estas aparecerán una debajo de otra.
+		El cliente tiene la posibilidad de editar y de borrar dichas noticias.
+		</div>
+		<div id="siguiente2" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli4,textocli5)">SIGUIENTE ></div>
+		<div id="anterior1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli4,textocli3)">< ANTERIOR</div>
+		</div>
+		
+		<div class="texcli1" id="textocli5">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli5,cli1)">x</div>
+		<div class="textotexcli1">
+		En la parte de "Sobre Nosotros" el cliente nos solicito una pagina con solo texto alineado de forma central.
+		Le propusimos colocar una foto de forma vertical a la parte izquierda del texto manteniendo un pequeño margen.
+		<img src="{{ STATIC_URL }}/img/nosotrosves.png" class="galeriasves">
+		Tras mostrarle una prueba le gusto el resultado, por lo que lo realizamos así con contenido variable.
+		</div>
+		<div id="siguiente2" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli5,textocli6)">SIGUIENTE ></div>
+		<div id="anterior1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli5,textocli4)">< ANTERIOR</div>
+		</div>
+		
+		<div class="texcli1" id="textocli6">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli6,cli1)">x</div>
+		<div class="textotexcli1">
+		En la parte de contacto le propusimos un formulario conectado con una base de datos en la cual poder atender los mensajes recibidos sin necesidad de correos electrónicos.
+		<img src="{{ STATIC_URL }}/img/contactoves.png" class="galeriasves">
+		El cliente rechazo la propuesta y decidió algo mas sencillo y formal con una imagen de forma horizontal y el correo electrónico debajo.
+		Este fue el resultado.
+		</div>
+		<div id="siguiente2" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli6,textocli7)">SIGUIENTE ></div>
+		<div id="anterior1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli6,textocli5)">< ANTERIOR</div>
+		</div>
+		
+		<div class="texcli1" id="textocli7">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli7,cli1)">x</div>
+		<div class="textotexcli1">
+		Una vez finalizada la web y ya con el visto bueno del cliente, le ofrecimos una pagina de inicio mas vistosa, con una presentación de sus propias fotos.
+		<img src="{{ STATIC_URL }}/img/inicioves.png" class="galeriasves">
+		Realizamos la programación y tras mostrarle el resultado quedo encantado con como encajaba con el estilo de su web por lo que decidió incluirlo en el proyecto.
+		
+		</div>
+		<div id="siguiente2" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli7,textocli8)">ZONA ADMIN ></div>
+		<div id="anterior1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli7,textocli6)">< ANTERIOR</div>
+		</div>
+		
+		<div class="texcli1" id="textocli8">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli8,cli1)">x</div>
+		<div class="textotexcli1">
+		<img src="{{ STATIC_URL }}/img/adminves.png" class="galeriasves">
+		Detrás de lo que a simple vista se ve de la web se esconden muchas mas horas de trabajo realizando una zona de administración de fácil utilización para que la totalidad del contenido de la web sea variable.
+		Concuimos realizando una zona de administracion a medida.
+		
+		</div>
+		<a href="/inicioadminves" target="_blank"><div id="siguiente2" onmouseover="pasar7(this)" onmouseout="salir7(this)">EJEMPLO ZONA</div></a>
+		<div id="anterior1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli8,textocli7)">< ANTERIOR</div>
+		</div>
+		
+		<div class="texcli1" id="textocli9">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli1,cli1)">x</div>
+		<a href="http://eticaetilica.com/" target="_blank"><img src="{{ STATIC_URL }}/img/logo_ee.png" id="logo_ee"></a>
+		<div class="textotexcli1">Ética etìlica es un joven grupo musical, neccesitaban un servicio web para dar a conocer su nuevo lp, fue un trabajo bastante rapido y sencillo de realizar pues teninan muy claro lo que querian y bastaron apenas unas horas para dar por concluido este proyecto.
+		Actualmente se trata de una web estatica pensadada para dar paso a crear un contenido variable a posteriri.
+		A continuacion les mostraremos algunos de los detalles mas especiales de esta web.
+		</div>
+		<div id="siguiente1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli1,textocli2)">SIGUIENTE ></div>
+		</div>
+		
+		<div class="texcli1" id="textocli9">
+		<div class="cerrarclientes" onclick="cerrarcajacli(textocli1,cli1)">x</div>
+		<a href="http://eticaetilica.com/" target="_blank"><img src="{{ STATIC_URL }}/img/logo_ee.png" id="logo_ee"></a>
+		<div class="textotexcli1">Ética etìlica es un joven grupo musical, neccesitaban un servicio web para dar a conocer su nuevo lp, fue un trabajo bastante rapido y sencillo de realizar pues teninan muy claro lo que querian y bastaron apenas unas horas para dar por concluido este proyecto.
+		Actualmente se trata de una web estatica pensadada para dar paso a crear un contenido variable a posteriri.
+		A continuacion les mostraremos algunos de los detalles de esta web.
+		</div>
+		<div id="siguiente1" onmouseover="pasar7(this)" onmouseout="salir7(this)" onclick="sigiente1(textocli1,textocli2)">SIGUIENTE ></div>
+		</div>
+		
+		<div id="divclientes">
+		<table id="tablaclientes">
+			<tr>
+				<td class="tdclientes" onmouseover="pasar6(this)" onmouseout="salir6(this)" onclick="mostrarcli(textocli1,cli1)">VESimageworks</td>
+			</tr>
+			<tr>
+				<td class="tdclientes" onmouseover="pasar6(this)" onmouseout="salir6(this)" onclick="mostrarcli(textocli9,cli2)">Ética etìlica</td>
+			</tr>
+			<!--<tr>
+				<td class="tdclientes" onmouseover="pasar6(this)" onmouseout="salir6(this)" onclick="mostrarcli()">GrassHopper</td>
+			</tr>
+			<tr>
+				<td class="tdclientes" onmouseover="pasar6(this)" onmouseout="salir6(this)" onclick="mostrarcli()">Grado Master</td>
+			</tr>
+			<tr>
+				<td class="tdclientes" onmouseover="pasar6(this)" onmouseout="salir6(this)" onclick="mostrarcli()">Barderas S.L.</td>
+			</tr>-->
+		</table>
+		</div>
+		<div id="cli1"></div>
+		<div id="cli2"></div>
+			
+		</div>
+		
+		<div id="divcabecera">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo" onclick="inicio()"></div>
+			<table id="tablacabecera">
+				<tr>
+					
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="diseno()">
+					DISEÑO WEB</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="aplicaciones()">APLICACIONES</td>
+					<td class="botonescabe2">CLIENTES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="nosotros()">NOSOTROS</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="contacto()">CONTACTO</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+	</div>
+	<div id="divpie">LCDesign  -  Diseño y Desarrollo de aplicaciones con tecnologia web  -  LCDesign@outlook.es</div>
+</body>
+</html>

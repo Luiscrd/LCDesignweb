@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.2" >
+<meta name="author" content="Luis" >
+<meta name="date" content="2014-05-22T18:22:20+0200" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/adminves.css">
+<script type="text/javascript" src="{{ STATIC_URL }}js/adminves.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.7.2.min.js"></script>
+</head>
+<body id="bodyadmin" background="{{ STATIC_URL }}img/fondo1.jpg">
+	<div id="principaladmin">
+		{% block contenido %}
+		<h2 class="h2admin">ZONA ADMINISTRADOR</h2>
+		<table id="botonesadmin">
+			<tr>
+				<td class="botonadmin" onmouseover="pasaradmin(this)" onmouseout="saliradmin(this)" background="{{ STATIC_URL }}img/fondo7.jpg" onclick="animacionadmin()">
+				Animacion</td>
+				<td class="botonadmin" onmouseover="pasaradmin(this)" onmouseout="saliradmin(this)" background="{{ STATIC_URL }}img/fondo7.jpg" onmousedown="galerias_admin()">
+				Galerias</td>
+				<td class="botonadmin" onmouseover="pasaradmin(this)" onmouseout="saliradmin(this)" background="{{ STATIC_URL }}img/fondo7.jpg" onmousedown="films_admin()">
+				Films</td>
+			</tr>
+			<tr>
+				<td class="botonadmin" onmouseover="pasaradmin(this)" onmouseout="saliradmin(this)" background="{{ STATIC_URL }}img/fondo7.jpg" onmousedown="noticias_admin()">
+				Noticias</td>
+				<td class="botonadmin" onmouseover="pasaradmin(this)" onmouseout="saliradmin(this)" background="{{ STATIC_URL }}img/fondo7.jpg" onmousedown="nosotros_admin()">
+				Sobre<br>Nosotros</td>
+				<td class="botonadmin" onmouseover="pasaradmin(this)" onmouseout="saliradmin(this)"  background="{{ STATIC_URL }}img/fondo7.jpg" onclick="contactoadmin(2)">
+				Contacto</td>
+			</tr>
+		</table>
+		<div id="flecha" onclick="clientes()" onmouseover="pasaradmin4(this)" onmouseout="saliradmin4(this)"><</div>
+		{% endblock %}
+	<h2 class="nombre" id="minombre">By: LCDesign</h2>
+	
+	</div>
+</body>
+</html>

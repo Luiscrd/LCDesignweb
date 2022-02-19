@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2014-12-17T15:22:33+0100" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/movimiento.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+<style type="text/css"> 
+
+body{
+	margin: 0;
+	padding-top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-attachment: fixed;
+	}
+	
+</style>
+</head>
+<body background="{{ STATIC_URL }}/img/fond12.jpg" onload="mover3(chicabasica),mover3(cabecerachicabasica),mover4(chicaavanzada),mover4(cabecerachicaavanzada)">
+	<div id="div_cargando">
+	<img src="{{ STATIC_URL }}/img/lcde.png" id="logo_cargando">
+	<img src="{{ STATIC_URL }}/img/car.gif" id="cargando">
+	<img src="{{ STATIC_URL }}/img/loading_bar.gif" id="cargando_bar">
+	<h2 id="texto_cargando">loading<br>please wait...</h2>
+	</div>
+	<div id="divprincipal">
+	
+	<div id="divcontenido">
+		<div id="caja_logo_diseno" onclick="diseno2()">
+			<img src="{{ STATIC_URL }}/img/web.png" class="logodiseno">
+			<img src="{{ STATIC_URL }}/img/dw.png" class="logo_dwd">
+		</div>
+		
+		<div id="divcontenido"></div>
+		
+		<div id="caja_chica_basica">
+			<img src="{{ STATIC_URL }}/img/chicabasica.png" class="logochica" onclick="mostrarcli3(textodisenobasico)" id="chicabasica">
+			<div class="cabeceralogochica" id="cabecerachicabasica">DISEÑO BASICO</div>
+		</div>
+		
+		<div id="caja_chica_avanzada">
+			<img src="{{ STATIC_URL }}/img/chicaaplicaciones.png" class="logochica2" onclick="mostrarcli3(textodisenoavanzado)" id="chicaavanzada">
+			<div class="cabeceralogochica2" id="cabecerachicaavanzada">DISEÑO AVANZADO</div>
+		</div>
+		<div class="textodiseno" id="cajatextodiseno">
+		<h1 class="h1diseno">Planes de Diseño</h1>
+		En LCDesign le ofrecemos dos planes de diseño web. Desde una web básica, pensada para emprendedores y pequeños negocios con visión de futuro, hasta una página web más completa y avanzada, desarrollada con un software que presenta funciones prácticamente ilimitadas, con las que podrá conseguir los mejores resultados para su negocio.
+		</div>
+		<div class="textodiseno" id="textodisenobasico"><h1 class="h1diseno">Diseño Básico</h1>El Diseño básico es un tipo de web el cual creamos totalmente personalizada a petición del cliente con un contenido estático escrito por código, sin nigun tipo de asociación a bases de datos.
+		Una solución web indicada para negocios con un producto fijo el cual no suela cambiar habitualmente: Empresas de construcción, Talleres mecánicos, Pastelerias, etc...
+		</div>
+		<div class="textodiseno" id="textodisenoavanzado"><h1 class="h1diseno">Diseño Avanzado</h1>El Diseño avanzado es un tipo de web más dinámica, donde se acuerda un estilo principal de la página como se haría con la web básica pero a la que después se le asocia una base de datos para permitir al cliente jugar con su contenido a su antojo: subiendo fotos, publicando noticias, cambiando contenido, etc... Todo ello controlado desde una zona de administración de fácil utilización.
+		</div>
+		<div class="textodiseno" id="textodphotoshop"><img src="{{ STATIC_URL }}/img/photosopabierto.png" id="photoshopabierto">Utilizamos la ultima tecnología en edición fotográfica. Con Adobe Photoshop se abre todo un abanico de posibilidades para mejor la apariencia de su web, retocar sus fotos dándole un aspecto mucho mas profesional así como la creación de logotipos y otros elementos que conforman la estructura de la parte gráfica de la web.</div>
+ 		<div class="textodiseno" id="textocorel"><img src="{{ STATIC_URL }}/img/corelabierto.png" id="corelabierto">Corel Draw es una de las mejores aplicaciones de diseño gráfico vectorial.
+ 		Eeste programa nos permite crear casi cualquier elemento para nuestra web: porque una apariencia es casi tan importante como un buen rendimiento, nos preocupamos por lograr los mejores resultados.</div>
+		
+		
+		</div>
+		<div id="divcabecera">
+		<div id="caja_div_cabecera">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo" onclick="inicio()"></div>
+			<table id="tablacabecera">
+				<tr>
+					<td class="botonescabe2">DISEÑO WEB</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="aplicaciones()">
+					APLICACIONES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="clientes()">
+					CLIENTES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="nosotros()">
+					NOSOTROS</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="contacto()">
+					CONTACTO</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+
+	
+	</div>
+	<div id="divpie">LCDesign  -  Diseño y Desarrollo de aplicaciones con tecnologia web  -  Info@LCDesignWeb.es</div>
+</body>
+</html>

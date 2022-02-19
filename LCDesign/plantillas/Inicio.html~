@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2015-01-13T19:09:39+0100" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/movimiento.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" />
+<style type="text/css"> 
+
+body{
+	margin: 0;
+	padding-top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-attachment: fixed;
+	}
+	
+</style>
+</head>
+<body onload="cargar(div_cargando), mover(divcuadrotexto1)" background="{{ STATIC_URL }}img/fond14.jpg">
+	<div id="div_cargando">
+	<img src="{{ STATIC_URL }}/img/lcde.png" id="logo_cargando">
+	<img src="{{ STATIC_URL }}/img/car.gif" id="cargando">
+	<img src="{{ STATIC_URL }}/img/loading_bar.gif" id="cargando_bar">
+	<h2 id="texto_cargando">loading<br>please wait...</h2>
+	</div>
+	<div id="divprincipal" >
+	
+		<div id="divcontenido">
+		
+			<div id="divcuadrotexto1">Si tu puedes imaginarlo...</div>
+			<div id="neondivcuadrotexto1">Si tu puedes imaginarlo...</div>
+			<div id="divcuadrotexto2">... Nosotros podemos crearlo</div>
+			<div id="neondivcuadrotexto2">... Nosotros podemos crearlo</div>
+			<div id="divbotondise" onmouseover="pasar2(this)" onmouseout="salir2(this)" onclick="contacto()">ASESORAMIENTO</div>
+			<div id="neondivbotondise" onmouseover="pasar2(this)" onmouseout="salir2(this)" onclick="contacto()">ASESORAMIENTO</div>
+			<div id="caja_cuadros_inicio">
+				<div id="divfoto1"><div class="letrerofoto" id="crea">CREACION DE APLICACIONES</div>
+				<img src="{{ STATIC_URL }}/img/aplicaciones.png" class="fotoprin" id="imgcrea">
+				<div class="fotoprin2" id="textoapliinicio">Diseño de aplicaciones a medida para la gestión de negocios, almacenes, tiendas online, creación de tpvs a medida. Todo lo que necesites e imagines para tu negocio.</div>
+				</div>
+				<div id="neondivfoto1"><div class="letrerofoto" id="neoncrea">CREACION DE APLICACIONES</div><div id="neonfotoapli" class="fotoprin"></div></div>
+				<div id="divfoto2"><div class="letrerofoto" id="avan">DISEÑO AVANZADO</div>
+				<img src="{{ STATIC_URL }}/img/avanzado.png" class="fotoprin">
+				<div class="fotoprin2" id="textoavaninicio">El diseño avanzado es un tipo de web con contenido dinámico, el cual puede ser cambiado por el usuario a traves de una zona de administración creada a medida.</div>
+				</div>
+				<div id="neondivfoto2"><div class="letrerofoto" id="neonavan">DISEÑO AVANZADO</div><div id="neonfotoavan" class="fotoprin"></div></div>
+				<div id="divfoto3"><div class="letrerofoto" id="basi">DISEÑO BASICO</div>
+				<img src="{{ STATIC_URL }}/img/basico.png" class="fotoprin" id="imgbasi">
+				<div class="fotoprin2" id="textobasiinicio">Se trata de un diseño sencillo de web estática, una idea asequible para darte a conocer a ti o a tu negocio a a trabes de internet, algo casi indispensable actualmente.</div>
+				</div>
+				<div id="neondivfoto3"><div class="letrerofoto" id="neonbasi">DISEÑO BASICO</div><div id="neonfotobasi" class="fotoprin"></div></div>
+			</div>
+			<div id="divcaja4"></div>
+			<div id="divcaja2">
+				<div id="fotocaja2"><img src="{{ STATIC_URL }}/img/logo.png" class="fotocaja2"></div>
+				<div id="textocaja2">LCDesing
+				
+				Somos jóvenes emprendedores, que hemos recibido la mejor formación en programación de última tecnología. 
+				Estamos especializados en creación de aplicaciones web, trabajamos con Html, Css, Javascript, Python, Django, etc... 
+				
+				Si tienes algún proyecto en mente, o simplemente te gustaría tener tu propia web para darte a conocer, no dudes en contactar con nosotros, atenderemos tus peticiones y te asesoraremos sin compromiso.
+				</div>
+			</div>
+			
+			<div id="divcaja3">
+			<div id="foto1caja3"><img src="{{ STATIC_URL }}/img/diseno.jpg" class="fotocaja3">
+			DISEÑO A MEDIDA</div>
+			<div id="divtextocaja3"><div id="encabezadocaja3">¿QUE TE OFRECEMOS?</div>
+			<div id="textocaja3">
+			- Un servicio a medida.<br>
+			- Un precio asequible.<br>
+			- Atención personalizada.<br>
+			- Servicio de mantenimiento.<br>
+			- 1 año de alojamiento gratuito.
+			</div>
+			<div id="piecaja3">LCDesign</div>
+			</div>
+			<div id="foto2caja3"><img src="{{ STATIC_URL }}/img/disenadores.jpg" class="fotocaja3">
+			COMPROMISO</div>
+			</div>
+			
+			<!--<div id="cajabotonesluz">
+			LUCES:
+			<img src="{{ STATIC_URL }}img/luceson.png" id="luceson" class="lucesinicio1">
+			<img src="{{ STATIC_URL }}img/lucesoff.png" id="lucesoff" class="lucesinicio2">
+			<img src="{{ STATIC_URL }}img/luceson2.png" id="luceson2" class="lucesinicio1" onclick="encenderluces()">
+			<img src="{{ STATIC_URL }}img/lucesoff2.png" id="lucesoff2" class="lucesinicio2" onclick="apagarluces()">
+			</div>-->
+			
+		</div>
+		
+		<div id="clickinicio1" onclick="mostrarcliinicio(textoapliinicio)" onmouseout="cerrarpreinicio(textoapliinicio)"></div>
+		<div id="clickinicio2" onclick="mostrarcliinicio(textoavaninicio)" onmouseout="cerrarpreinicio(textoavaninicio)"></div>
+		<div id="clickinicio3" onclick="mostrarcliinicio(textobasiinicio)" onmouseout="cerrarpreinicio(textobasiinicio)"></div>
+		
+		<div id="divcabecera">
+			<div id="caja_div_cabecera">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo"></div>
+			<table id="tablacabecera">
+				<tr>
+					<td class="botonescabe" onmouseover="pasar(this)" onmouseout="salir(this)" onclick="diseno()">
+					DISEÑO WEB</td>
+					<td class="botonescabe" onmouseover="pasar(this)" onmouseout="salir(this)" onclick="aplicaciones()">
+					APLICACIONES</td>
+					<td class="botonescabe" onmouseover="pasar(this)" onmouseout="salir(this)" onclick="clientes()">
+					CLIENTES</td>
+					<td class="botonescabe" onmouseover="pasar(this)" onmouseout="salir(this)" onclick="nosotros()">
+					NOSOTROS</td>
+					<td class="botonescabe" onmouseover="pasar(this)" onmouseout="salir(this)" onclick="contacto()">
+					CONTACTO</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+			
+	</div>
+	<div id="divpie">LCDesign  -  Diseño y Desarrollo de aplicaciones con tecnologia web  -  Info@LCDesignWeb.es</div>
+	
+</body>
+</html>

@@ -1,0 +1,341 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head lang="es">
+<title>LCDesignWeb</title>
+<meta name="generator" content="Bluefish 2.2.6" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2016-07-05T15:28:29+0200" >
+<meta name="copyright" content="">
+<meta name="keywords" content="HTML5, CSS3, Javascript">
+<meta name="description" content="Diseño de aplicaciones con tecnología web">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{% static 'css/iniciolcdw.css' %}"/>
+<script type="text/javascript" src="{% static 'js/jquery-1.7.2.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/movimiento.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/iniciolcdw.js' %}"></script>
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'img/logopeq.png' %}">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+<body>
+	<header id="cabecera">
+		<img src="{% static 'img/LCDlogo.png' %}" alt="Logo Corporativo" id="lcdlogo">
+		<nav id="botones_principal">
+			<ul id="menu_botones_principal">
+				<li class="boton_menu_botones_principal"  onclick="mover_scroll(0)">
+					<img src="{% static 'img/INI.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Inicio</div>
+				</li>
+				<li class="boton_menu_botones_principal" onclick="mover_scroll(550)">
+					<img src="{% static 'img/NOS.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Quienes Somos</div>
+				</li>
+				<li class="boton_menu_botones_principal" onclick="mover_scroll(750)">
+					<img src="{% static 'img/SERV.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Nuestros Servicios</div>
+				</li>
+				<li class="boton_menu_botones_principal">
+					<img src="{% static 'img/CLI.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Clientes</div>
+				</li>
+				<li class="boton_menu_botones_principal">
+					<img src="{% static 'img/CONT.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Contacto</div>
+				</li>
+			</ul>
+		</nav>
+		<div id="redes_sociales">
+			<a href="https://www.facebook.com/lcdesignweb.disenoweb?fref=ts" target="_blank"><img src="{% static 'img/FA.png' %}" alt="Facebook" class="icono_redes_sociales"></a>
+			<a href="https://plus.google.com/101237620173433450400/about" target="_blank"><img src="{% static 'img/GO.png' %}" alt="Google+" class="icono_redes_sociales"></a>
+			<a href="https://twitter.com/LCDesign_Web" target="_blank"><img src="{% static 'img/TW.png' %}" alt="Twitter" class="icono_redes_sociales"></a>
+			<a href="https://www.youtube.com/channel/UCrU9bzguxHjx2PN93qYHAWA/feed" target="_blank"><img src="{% static 'img/YO.png' %}" alt="Youtube" class="icono_redes_sociales"></a>
+		</div>
+		<div id="contacto_cabe">
+			<div class="dentro_contacto_cabe">
+				<img src="{% static 'img/TEL.png' %}" alt="Icono" class="icono_contacto_cabe">
+				<div class="texto_contacto_cabe">684 00 15 77</div>
+			</div>
+			<div class="dentro_contacto_cabe">
+				<img src="{% static 'img/CAR.png' %}" alt="Icono" class="icono_contacto_cabe">
+				<div class="texto_contacto_cabe">info@lcdesignweb.es</div>
+			</div>
+		</div>
+	</header>
+	<header id="cabecera2">
+		<img src="{% static 'img/LCDlogo.png' %}" alt="Logo Corporativo" id="lcdlogo2">
+		<nav id="botones_principal2">
+			<ul id="menu_botones_principal2">
+				<li class="boton_menu_botones_principal2" onclick="mover_scroll(0)">
+					<img src="{% static 'img/INI.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Inicio</div>
+				</li>
+				<li class="boton_menu_botones_principal2" onclick="mover_scroll(550)">
+					<img src="{% static 'img/NOS.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Quienes Somos</div>
+				</li>
+				<li class="boton_menu_botones_principal2"  onclick="mover_scroll(1150)">
+					<img src="{% static 'img/SERV.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Nuestros Servicios</div>
+				</li>
+				<li class="boton_menu_botones_principal2" onclick="mover_scroll(1600)">
+					<img src="{% static 'img/CLI.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Clientes</div>
+				</li>
+				<li class="boton_menu_botones_principal2" onclick="mover_scroll(2435)">
+					<img src="{% static 'img/CONT.png' %}" alt="icono boton" class="icono_botones">
+					<div class="texto_botones">Contacto</div>
+				</li>
+			</ul>
+		</nav>
+		<div id="redes_sociales2">
+			<a href="https://www.facebook.com/lcdesignweb.disenoweb?fref=ts" target="_blank"><img src="{% static 'img/FA.png' %}" alt="Facebook" class="icono_redes_sociales2"></a>
+			<a href="https://plus.google.com/101237620173433450400/about" target="_blank"><img src="{% static 'img/GO.png' %}" alt="Google+" class="icono_redes_sociales2"></a>
+			<a href="https://twitter.com/LCDesign_Web" target="_blank"><img src="{% static 'img/TW.png' %}" alt="Twitter" class="icono_redes_sociales2"></a>
+			<a href="https://www.youtube.com/channel/UCrU9bzguxHjx2PN93qYHAWA/feed" target="_blank"><img src="{% static 'img/YO.png' %}" alt="Youtube" class="icono_redes_sociales2"></a>
+		</div>
+	</header>
+	<section id="cuerpo1">
+		<div id="cartel1_inicio">Diseño Personalizado <a>SIN PLANTILLAS</a></div>
+		<div id="caja_programadores">
+			<img src="{% static 'img/lineas.png' %}" alt="Programador" id="programador">
+			<img src="{% static 'img/jefe.png' %}" alt="Programador" id="programador2">
+			<img src="{% static 'img/folios.png' %}" alt="Programador" id="programador3">
+		</div>
+		<div id="texto_cartel1">
+			<div id="titulo_texto_cartel1">Porque cada negocio es diferente, Creamos tu propia web.</div>
+			<ul id="lista_texto_cartel1">
+				<li>Diseño web a medida.</li>
+				<li>Version movil incluida.</li>
+				<li>Asesoramiento personalizado.</li>
+				<li>1 año de alojamiento gratuito.</li>
+			</ul>
+		</div>
+		<div id="cartel1_cuerpo1">Si tu puedes imaginarlo</div>
+		<div id="cartel2_cuerpo1">Nosotros podemos crearlo</div>
+	</section>
+	<section id="cuerpo2">
+		<div id="cartel1_cuerpo2"><a class="lc">Q</a>uienes <a class="lc">S</a>omos</div>
+		<img src="{% static 'img/mesa.png' %}" alt="Nosotros" id="imagen_nosotros">
+		<img src="{% static 'img/trabajadores.png' %}" alt="Nosotros" id="imagen_nosotros2">
+		<div id="texto_cuerpo2">En <a class="lc">LC</a><a class="design">DESIGN</a><a class="web">WEB</a> Somos jóvenes emprendedores, que hemos recibido la mejor formación en programación de última tecnología.
+		Estamos especializados en creación de aplicaciones web, trabajamos con Html5, Css3, Javascript, Python, Django, etc...
+		Si tienes algún proyecto en mente, o simplemente te gustaría tener tu propia web para darte a conocer, no dudes en contactar con nosotros, atenderemos tus peticiones y te asesoraremos sin compromiso.<div id="boton_texto_cuerpo2">Conoce mas</div></div>
+	</section>
+	<section id="cuerpo3">
+		<div id="cartel_cuerpo3"><a class="lc">N</a>UESTROS <a class="lc">S</a>ERVICIOS</div>
+		<div id="cuerpo_servicios">
+			<div class="caja_icono_servicios">
+				<div class="caja_imajen_servicios" onclick="mostrar_servicios(caja_servicios_diseno)">
+					<img src="{% static 'img/DIS.png' %}" alt="Icono Servicios" class="icono_servicios">
+				</div>
+				<div class="titulo_caja_servicios">DISEÑO WEB</div>
+				<div class="texto_caja_servicios">Diseño web personalizado para el cliente incluyendo version movil.</div>
+			</div>
+			<div class="caja_servicios" id="caja_servicios_diseno">
+			<div class="titulo_caja_servicios_dentro"><a>D</a>iseño <a>W</a>eb a <a>M</a>edida</div>
+			<div class="texto_caja_servicios_dentro">Si estás buscando un diseño web a medida porque quieres que tu sitio web tenga funcionalidades específicas podemos darte una solución diseñada a la medida de tu proyecto web.
+
+Tenemos experiencia en proyectos de gran complejidad como páginas web para hoteles con motor de reserva online, páginas web para inmobiliarias, páginas web para academias y centros de formación con aulas virtuales, Tiendas virtuales, etc.
+
+A lo largo de nuestra trayectoria, hemos desarrollado proyectos a medida para todo tipo de empresas o administraciones. Si estás interesado en llevar a cabo un proyecto, estamos a tu servicio para desarrollar cualquier tipo de páginas web.</div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_diseno)">VOLVER</div>
+			</div>
+			<div class="caja_icono_servicios">
+				<div class="caja_imajen_servicios" onclick="mostrar_servicios(caja_servicios_aplicaciones)">
+					<img src="{% static 'img/APP.png' %}" alt="Icono Servicios" class="icono_servicios">
+				</div>
+				<div class="titulo_caja_servicios">DESARROLLO APLICACIONES</div>
+				<div class="texto_caja_servicios">Desarrollamos cualquier aplicación que usted necesite.</div>
+			</div>
+			<div class="caja_servicios2" id="caja_servicios_aplicaciones">
+			<div class="titulo_caja_servicios_dentro"><a>D</a>esarrollo de <a>A</a>plicaciones</div>
+			<div class="texto_caja_servicios_dentro">El diseño y desarrollo de aplicaciones web consiste en implementar sus necesidades, objetivos o ideas en Internet utilizando las tecnologías más idóneas según su proyecto.
+			
+		Las aplicaciones web ofrecen servicios a los usuarios de Internet que acceden utilizando un navegador web como I.Explorer, Firefox o Safari entre otros, dirigiéndose a una dirección de Internet donde obtendrán los servicios que buscan.
+		
+		Las aplicaciones web pueden ser de acceso público como tiendas virtuales, diarios digitales, portales de Internet,... o de acceso restringido como son las intranets para mejorar las gestiones internas de su empresa como el reporte de horas de su personal, gestión de proyectos y tareas, control de presencia, gestores documentales, o el uso de extranets para aumentar y mejorar el servicio con sus distribuidores, clientes, proveedores, comerciales y colaboradores externos.
+		
+		Cada vez es más necesario adaptar el software y los sistemas online a la lógica de negocio de cada cliente.
+		Por este motivo, no sólo es necesario que su empresa disponga de una web corporativa, un comercio virtual o una extranet para gestionar los pedidos de sus clientes o distribuidores, sino que es muy aconsejable una integración total con sus sistemas propietarios de facturación, nóminas, proveedores, previsiones, etc. para obtener un sistema integral y eficiente en todas las áreas de su corporación.</div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_aplicaciones)">VOLVER</div>
+			</div>
+			<div class="caja_icono_servicios">
+				<div class="caja_imajen_servicios" onclick="mostrar_servicios(caja_servicios_hosting)">
+					<img src="{% static 'img/SER.png' %}" alt="Icono Servicios" class="icono_servicios">
+				</div>
+				<div class="titulo_caja_servicios">HOSTING GRATUITO</div>
+				<div class="texto_caja_servicios">Te regalamos 1 año de alojamiento gratuito, con posivilidad de ampliación.</div>
+			</div>
+			<div class="caja_servicios" id="caja_servicios_hosting">
+			<div class="titulo_caja_servicios_dentro"><a>H</a>osting <a>G</a>ratuito</div>
+			<div class="texto_caja_servicios_dentro">En LCDessign te ofrecemos servicio de alojamiento de páginas web (hosting) gratuito durante el primer año (Con posibilidad de ampliación).
+
+Nuestro datacenter se encuentra en España, por lo que la IP gestionada por nosotros siempre será española, lo que favorece de por si el posicionamiento en buscadores como Google.
+
+Disponemos de servidores propios de alta velocidad con las ultimas tecnologías.
+
+Ofrecemos un soporte continuo. Resolvemos las incidencias (caídas de servidor, fallos de envío o recepción de correos) de forma inmediata.</div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_hosting)">VOLVER</div>
+			</div>
+			<div class="caja_icono_servicios">
+				<div class="caja_imajen_servicios" onclick="mostrar_servicios(caja_servicios_dominio)">
+					<img src="{% static 'img/DOM.png' %}" alt="Icono Servicios" class="icono_servicios">
+				</div>
+				<div class="titulo_caja_servicios">DOMINIO INCLUIDO</div>
+				<div class="texto_caja_servicios">Incluimos en el precio la cuota de un año del dominio que escoja para su web.</div>
+			</div>
+			<div class="caja_servicios" id="caja_servicios_dominio">
+			<div class="titulo_caja_servicios_dentro"><a>D</a>ominio <a>I</a>ncluido</div>
+			<div class="texto_caja_servicios_dentro">Un dominio es el nombre que identifica a tu sitio web en Internet. Se compone de tres partes, las tres uves dobles (wwww), el nombre que le demos y la extensión (.com, .es, .net, etc).
+			
+Hay que tener en cuenta que cada dominio es único y no se puede repetir.
+
+En LCDesign te ofrecemos de forma totalmente gratuita durante el primer año (con posisibilidad de ampliación o traspaso), Siempre y cuando el dominio que se encuentre disponible.</div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_dominio)">VOLVER</div>
+			</div>
+			<div class="caja_icono_servicios">
+				<div class="caja_imajen_servicios" onclick="mostrar_servicios(caja_servicios_garantia)">
+					<img src="{% static 'img/GAR.png' %}" alt="Icono Servicios" class="icono_servicios">
+				</div>
+				<div class="titulo_caja_servicios">GARANTIA DE PROFESIONALIDAD</div>
+				<div class="texto_caja_servicios">Garantizamos la calidad de nuestros productos.</div>
+			</div>
+			<div class="caja_servicios" id="caja_servicios_garantia">
+			<div class="titulo_caja_servicios_dentro"><a>G</a>arantia de <a>P</a>rofesionalidad</div>
+			<div class="texto_caja_servicios_dentro">Ofrecemos la máxima calidad en todos nuestros productos optimizando constantemente la calidad de nuestros procesos.
+			
+Incluimos un servicio de mantenimiento de errores o solución de aspectos que no resulten del agrado de nuestros clientes.
+
+Nunca entregamos un trabajo a menos que el cliente este totalmente satisfecho con el resultado.</div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_garantia)">VOLVER</div>
+			</div>
+		</div>
+	</section>
+	<section id="cuerpo4">
+		<div id="cartel_cuerpo4"><a class="lc">C</a>LIENTES</div>
+		<img src="{% static 'img/orde.png' %}" alt="Logo Clientes" id="logo_clientes">
+		<div class="caja_foto_web" id="ves">
+			<img src="{% static 'img/ves.png' %}" alt="Logo Clientes" class="foto_web">
+			<a href="http://ves.photography/" target="_blank"><label class="texto_caja_foto_web">Ves Imageworks</label></a>
+		</div>
+		<div class="caja_foto_web" id="etica">
+			<img src="{% static 'img/etica.png' %}" alt="Logo Clientes" class="foto_web">
+			<a href="http://eticaetilica.com/" target="_blank"><label class="texto_caja_foto_web">Ética Etìlica</label></a>
+		</div>
+		<div class="caja_foto_web" id="kpro">
+			<img src="{% static 'img/kpro.png' %}" alt="Logo Clientes" class="foto_web">
+			<a href="http://kpropadel.com/" target="_blank"><label class="texto_caja_foto_web">Kpropadel</label></a>
+		</div>
+		<div class="caja_foto_web" id="grass">
+			<img src="{% static 'img/grass.png' %}" alt="Logo Clientes" class="foto_web">
+			<a href="http://grasshopperdistribution.com/inicio/" target="_blank"><label class="texto_caja_foto_web">Grass Hopper</label></a>
+		</div>
+		<div class="caja_foto_web" id="rubarfra">
+			<img src="{% static 'img/rubarfra.png' %}" alt="Logo Clientes" class="foto_web">
+			<a href="http://rubarfra.com/" target="_blank"><label class="texto_caja_foto_web">Rubarfra</label></a>
+		</div>
+	</section>
+	<section id="cuerpo5">
+		<div id="cartel_cuerpo5"><a class="lc">C</a>ONTACTO</div>
+		<img src="{% static 'img/contacto2.png' %}" alt="Logo Contacto" id="logo_contacto">
+		<img src="{% static 'img/bocadillo.png' %}" alt="Logo Contacto" id="bocadillo" class="bocadillos">
+		<img src="{% static 'img/bocadillo1.png' %}" alt="Logo Contacto" id="bocadillo2" class="bocadillos">
+		<img src="{% static 'img/bocadillo2.png' %}" alt="Logo Contacto" id="bocadillo3" class="bocadillos">
+		<button id="boton_contactar" onclick="contactar()">CONTACTAR</button>
+		<div id="caja_formulario_contacto">
+			
+			<form enctype="multipart/form-data" action="" method="post" id="formulario_contacto">{% csrf_token %}
+				<div class="caja_dentro_formulario">
+					<label class="texto_formulario">Nombre</label>
+					<input class="formulario" id="nombre" type="text" name="nombre">
+				</div>
+				<div class="caja_dentro_formulario">
+					<label class="texto_formulario">Telefono</label>
+					<input class="formulario" id="telefono" type="tel" name="telefono">
+				</div>
+				<div class="caja_dentro_formulario">
+					<label class="texto_formulario">Email</label>
+					<input class="formulario" id="email" type="email" name="email">
+				</div>
+				<div class="caja_dentro_formulario">
+					<label class="texto_formulario">Consulta</label>
+					<textarea class="formulario" rows="3" id="consulta" name="consulta"></textarea>
+				</div>
+				<input type="submit" value="Enviar"  name="_save" id="botonguardar" />
+			</form>
+		</div>
+	</section>
+	<footer id="pie">
+		<div id="pie_izquierdo">
+			<div class="texto_pie">© 2012 LCDesignWeb. Los nombres, marcas comerciales, logotipos y símbolos son marcas comerciales propiedad de sus respectivas compañías.</div>
+			<div class="texto_pie">Aviso legal. El uso de este sitio web constituye la aceptación de la Política de Privacidad.</div>
+		</div>
+		<div id="pie_derecho">
+			<a onclick="mostrar_servicios(caja_servicios_privacidad)">Politica de privacidad</a>
+			<a onclick="mostrar_servicios(caja_servicios_legal)">Aviso legal</a>
+			<a onclick="mostrar_servicios(caja_servicios_cookies)">Cookies</a>
+		</div>
+		<div id="redes_sociales_movil">
+			<a href="https://www.facebook.com/lcdesignweb.disenoweb?fref=ts" target="_blank"><img src="{% static 'img/FA2.png' %}" alt="Facebook" class="icono_redes_sociales"></a>
+			<a href="https://plus.google.com/101237620173433450400/about" target="_blank"><img src="{% static 'img/GO2.png' %}" alt="Google+" class="icono_redes_sociales"></a>
+			<a href="https://twitter.com/LCDesign_Web" target="_blank"><img src="{% static 'img/TW2.png' %}" alt="Twitter" class="icono_redes_sociales"></a>
+			<a href="https://www.youtube.com/channel/UCrU9bzguxHjx2PN93qYHAWA/feed" target="_blank"><img src="{% static 'img/YO2.png' %}" alt="Youtube" class="icono_redes_sociales"></a>
+		</div>
+	</footer>
+	<div id="fin_pie"></div>
+	<div id="fondo_translucido">
+		<div class="caja_servicios2" id="caja_servicios_privacidad">
+			<div class="titulo_caja_servicios_dentro"><a>P</a>olitica de <a>P</a>ivacidad</div>
+			<div class="texto_caja_servicios_dentro">Los datos personales proporcionados por el interesado a través de esta página web se incorporarán a los ficheros de los que es responsable la entidad LCDesign. Dichos datos serán tratados con la finalidad de dar respuesta a su solicitud, sugerencia o consulta, para el mantenimiento de relaciones comerciales y contactos y, salvo que nos indique expresamente otra cosa en su comunicación, para el envío de información de los productos y servicios de la empresa. Si nos proporciona su e-mail, esas comunicaciones podrán realizarse también por medios electrónicos. Puede revocar su consentimiento en la dirección de correo electrónico: info@lcdesignweb.es o dirigiéndose a los servicios de atención al cliente en el teléfono 684 001 577.
+
+En cualquier caso, los datos facilitados serán tratados con total confidencialidad.
+
+Pueden ejercerse los derechos de acceso, rectificación, cancelación y oposición mediante escrito, al que se adjunte copia del DNI, dirigido la dirección de e-mail: info@lcdesign.es</div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_privacidad)">VOLVER</div>
+		</div>
+		<div class="caja_servicios2" id="caja_servicios_legal">
+			<div class="titulo_caja_servicios_dentro"><a>A</a>viso <a>L</a>egal</div>
+			<div class="texto_caja_servicios_dentro">Esta página web es titularidad de LCDesign. La utilización de esta página Web atribuye la condición de Usuario a quien lo haga e implica la aceptación de todas las condiciones incluidas en este Aviso Legal.
+			
+Todos los mensajes enviados a esta Web (tanto a través del correo electrónico como a través de los formularios) han de estar identificados con su nombre y su e-mail. Las comunicaciones anónimas no serán aceptadas.
+
+Todos los contenidos de esta Web (textos, fotografías, gráficos, imágenes, tecnología, software, links, contenidos audiovisuales o sonoros, diseño gráfico, código fuente, etc.), así como las marcas y demás signos distintivos son propiedad de LCDesign o de terceros, no adquiriendo el Usuario ningún derecho sobre ellos por el mero uso de esta Web.
+
+El Usuario es responsable de que la información que proporcione a LCDesign a través de esta Web sea cierta. A estos efectos, el Usuario responde de la veracidad de todos los datos que comunique y mantendrá convenientemente actualizada la información facilitada, de tal forma que responda a su situación real. El Usuario será responsable de las informaciones falsas o inexactas que proporcione y de los perjuicios que ello cause a LCDesign o a terceros.</div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_legal)">VOLVER</div>
+		</div>
+		<div class="caja_servicios2" id="caja_servicios_cookies">
+			<div class="titulo_caja_servicios_dentro"><a>C</a>ookies</div>
+			<div class="texto_caja_servicios_dentro">Cookies: La página web de LCDesign utiliza cookies con el fin de mejorar sus servicios, facilitar la navegación, mantener la seguridad, verificar la identidad de los usuarios, facilitar su acceso a sus preferencias personales y seguir su navegación por la web.
+
+Las cookies son archivos instalados en el disco duro del ordenador del usuario, o bien en la memoria del navegador, en la carpeta preconfigurada por el sistema operativo del ordenador del usuario, para identificarle.
+
+Si el usuario no desea que se instale en su disco duro una cookie, deberá configurar su programa de navegación por internet para no recibirlas; o bien, podrá destruir las cookies libremente. En caso de que el usuario decida desactivar las cookies, la calidad y rapidez del servicio pueden disminuir e, incluso, podría perder el acceso a algunos de los servicios ofrecidos en la web. </div>
+			<div class="volver_caja_servicios_dentro" onclick="ocultar_servicios(caja_servicios_cookies)">VOLVER</div>
+		</div>
+	</div>
+	<div id="mensaje_cookies">Este sitio web utiliza cookies propias y de terceros para mejorar sus servicios pudiendo deshabilitarlas desde su navegador.
+Si continua navegando, consideramos que acepta su uso en los términos establecidos en la <a id="link_cookies" title="Acceso Política de Cookies" onclick="mostrar_servicios(caja_servicios_cookies)">Política de Cookies.</a><a id="cerrar_cookies" onclick="cerrar_cookies()">x</a></div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+window.onload = function () {
+
+	if (screen.width > 768){
+	cartel = document.getElementById("cartel1_cuerpo1")
+	mover(cartel)
+	mostrar_puntos()
+	} else {
+		mostrar_puntos()
+		}
+	
+}
+
+	
+</script>

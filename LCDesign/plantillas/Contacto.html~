@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2014-12-17T15:23:11+0100" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/movimiento.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+</head>
+<body background="">
+	<div id="div_cargando">
+	<img src="{{ STATIC_URL }}/img/lcde.png" id="logo_cargando">
+	<img src="{{ STATIC_URL }}/img/car.gif" id="cargando">
+	<img src="{{ STATIC_URL }}/img/loading_bar.gif" id="cargando_bar">
+	<h2 id="texto_cargando">loading<br>please wait...</h2>
+	</div>
+		<div id="divcabecera2">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo" onclick="inicio()"></div>
+			<table id="tablacabecera">
+				<tr>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="diseno()">
+					DISEÑO WEB</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="aplicaciones()">
+					APLICACIONES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="clientes()">
+					CLIENTES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="nosotros()">
+					NOSOTROS</td>
+					<td class="botonescabe2">
+					CONTACTO</td>
+				</tr>
+			</table>
+		</div>
+		<img src="{{ STATIC_URL }}/img/lapices.jpg" id="fotocontacto">
+		
+		<div id="contacto1">CONTACTO</div>
+		<div id="textocontacto1">Rellene y envíe el siguiente formulario para solicitar más información sobre nuestros servicios.</div>
+		
+		<div id="formulariocontacto">
+		Nombre:*<br><input type="text" class="formulario"><br>
+		Apellidos:*<br><input type="text" class="formulario"><br>
+		Email:*<br><input type="text" class="formulario"><br>
+		Telefono:<br><input type="text" class="formulario"><br>
+		</div>
+		<div id="formulariocontacto2">
+		Mensaje:*<br><textarea class="formulario" id="cajatextoform"></textarea>
+		</div>
+		<div id="botonformulario">Enviar</div>
+			
+		<img src="{{ STATIC_URL }}/img/logo.png" id="logo2">
+			
+		<div id="textocontacto3">
+		Si lo desea puede contactar con nosotros a través de nuestro email, intentaremos contestarle con la mayor brevedad posible.
+		</div>
+		<img src="{{ STATIC_URL }}/img/twrosa.png" id="logo_tw">
+		<img src="{{ STATIC_URL }}/img/facerosa.png" id="logo_fb">
+		<a href="" id="email">LCDesign@outlook.es</a>
+		<div id="divcabecera">
+			<div id="imagenlogo"><img src="{{ STATIC_URL }}/img/logo2.png" id="logo" onclick="inicio()"></div>
+			<table id="tablacabecera">
+				<tr>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="diseno()">
+					DISEÑO WEB</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="aplicaciones()">
+					APLICACIONES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="clientes()">
+					CLIENTES</td>
+					<td class="botonescabe" onmouseover="pasar4(this)" onmouseout="salir4(this)" onclick="nosotros()">
+					NOSOTROS</td>
+					<td class="botonescabe3">
+					CONTACTO</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="divpie">LCDesign  -  Diseño y Desarrollo de aplicaciones con tecnologia web  -  LCDesign@outlook.es</div>
+</body>
+</html>

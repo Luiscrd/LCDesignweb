@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<meta name="generator" content="Bluefish 2.2.2" >
+<meta name="author" content="LCDesign" >
+<meta name="date" content="2014-10-17T15:56:22+0200" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/Inicio.css">
+<script type="text/javascript" src="{{ STATIC_URL }}/js/Inicio.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/movimiento.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.7.2.min.js"></script>
+<style type="text/css"> 
+
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	}
+
+</style>
+</head>
+<body onload=""  background="{{ STATIC_URL }}img/fonndpesebueno.png">
+	<div id="conjunto_pantalla">
+		<div id="cajapresentacion">
+			<div id="pantallanegra"></div>
+			<img src="{{ STATIC_URL }}/img/logodesignppng.png" id="prinpre">
+			<img src="{{ STATIC_URL }}/img/fondopre1_peq.png" id="fondopre1" class="pre1">
+			<img src="{{ STATIC_URL }}/img/letraspre1.png" id="letraspre1" class="pre1">
+			<img src="{{ STATIC_URL }}/img/letraspre2.png" id="letraspre2" class="pre1">
+			<img src="{{ STATIC_URL }}/img/logopre1.png" id="logopre1" class="pre1">
+			<img src="{{ STATIC_URL }}/img/fondopintura2.png" id="pin1" class="pre2">
+			<img src="{{ STATIC_URL }}/img/pre2/pin14.png" id="pin2" class="pre2">
+			<img src="{{ STATIC_URL }}/img/pre2/pin15.png" id="pin3" class="pre2">
+			<img src="{{ STATIC_URL }}/img/pre2/pin16.png" id="pin4" class="pre2">
+			<img src="{{ STATIC_URL }}/img/ledpreapa.png" id="prese3" class="pre3">
+			<img src="{{ STATIC_URL }}/img/ledspre.png" id="ledprese3" class="pre3">
+			<div id="pantallaapagada"></div>
+		</div>
+		<img src="{{ STATIC_URL }}/img/botonapagado.png" id="botonenpre" onclick="presentacion1(this)">
+		<img src="{{ STATIC_URL }}/img/botonencendido.png" id="botonenpre2" onclick="presentacionapagar()">
+		<img src="{{ STATIC_URL }}/img/botonplayoff.png" id="botonplay" onclick="">
+		<img src="{{ STATIC_URL }}/img/botonplayon.png" id="botonplay2" onclick="presentacion2(this)">
+		<img src="{{ STATIC_URL }}/img/botonentrar.png" id="botonentrar" onmouseover="this.src='{{ STATIC_URL }}/img/botonentrar2.png'" onmouseout="this.src='{{ STATIC_URL }}/img/botonentrar.png'" onclick="inicio()">
+	</div>
+</body>
+</html>

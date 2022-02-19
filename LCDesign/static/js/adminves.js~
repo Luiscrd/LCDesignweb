@@ -1,0 +1,101 @@
+
+function pasaradmin(boton){
+	$(boton).css('color','red')
+	}
+	
+function saliradmin(boton){
+	$(boton).css('color','white')
+	}
+	
+function pasaradmin2(boton){
+	$(boton).css('color','red')
+	$(boton).css('border-color','red')
+	}
+	
+function saliradmin2(boton){
+	$(boton).css('color','black')
+	$(boton).css('border-color','gray')
+	}
+	
+function pasaradmin3(boton){
+	$(boton).css('color','red')
+	$(boton).css('border-color','red')
+	}
+	
+function saliradmin3(boton){
+	$(boton).css('color','green')
+	$(boton).css('border-color','gray')
+	}
+	
+function pasaradmin4(boton){
+	$(boton).css('color','white')
+	$(boton).css('border-color','red')
+	$(boton).css('text-shadow','0px 5px 7px #FF0000, 0px -5px 7px #FF0000, 5px 0px 7px #FF0000, -5px 0px 7px #FF0000')
+	}
+	
+function saliradmin4(boton){
+	$(boton).css('color','red')
+	$(boton).css('border-color','gray')
+	$(boton).css('text-shadow','0px 5px 7px #000000, 0px -5px 7px #000000, 5px 0px 7px #000000, -5px 0px 7px #000000')
+	}
+	
+function galerias_admin(){
+	location.href='/galerias_admin_ves'
+	}
+	
+function galeria_admin(id){
+	location.href='/galeria_admin_ves/'+id
+	}
+	
+function fotoeditrar_admin(){
+	location.href='/fotoeditar_admin_ves'
+	}
+	
+function fotonueva_admin(){
+	location.href='/fotonueva_admin_ves'
+	}
+	
+function films_admin(){
+	location.href='/films_admin_ves'
+	}
+	
+function filmsnuevo_admin(){
+	location.href='/filmsnuevo_admin_ves'
+	}
+	
+function noticias_admin(){
+	location.href='/noticias_admin_ves'
+	}
+	
+function noticianueva_admin(){
+	location.href='/noticianueva_admin_ves'
+	}
+	
+function nosotros_admin(){
+	location.href='/nosotros_admin_ves'
+	}
+	
+function nosotrosnuevotexto_admin(){
+	location.href='/nosotrosnuevotexto_admin_ves'
+	}
+	
+function nosotrosnuevafoto_admin(){
+	location.href='/nosotrosnuevafoto_admin_ves'
+	}
+	
+function editarfoto(id,id2){
+	location.href='/fotogaleria_admineditar/'+id+'/'+id2
+	}
+	
+function animacionadmin(){
+	location.href='/animacion_admin_ves'
+	}
+	
+	
+function cambiaranimacionves(id){
+	location.href='/animacioneditar_admin_ves/'+id
+	}
+	
+function atrasgalerias(){
+	location.href='/inicioadminves'
+	}

@@ -1,0 +1,253 @@
+function pasar(boton){
+	$(boton).attr('class','botonescabe2')
+	}
+	
+function salir(boton){
+	$(boton).attr('class','botonescabe')
+	}
+	
+function pasar2(boton){
+	$(boton).css('color','white')
+	}
+	
+function salir2(boton){
+	$(boton).css('color','#730073')
+	}
+	
+function pasar4(boton){
+	$(boton).css('color','black')
+	$(boton).css('text-shadow','-1px 2px 10px white')
+	}
+	
+function salir4(boton){
+	$(boton).css('color','white')
+	$(boton).css('text-shadow','-1px 2px 10px #000000')
+	}
+	
+function pasar5(boton){
+	$(boton).css('background-color','#e5097f')
+	}
+	
+function salir5(boton){
+	$(boton).css('background-color','rgba(255, 255, 255, 0.3)')
+	}
+	
+function pasar6(boton){
+	$(boton).css('background-color','#e5097f')
+	$(boton).css('color','white')
+	}
+	
+function salir6(boton){
+	$(boton).css('background-color','rgba(255, 255, 255, 0.8)')
+	$(boton).css('color','#e5097f')
+	}
+	
+function pasar7(boton){
+	$(boton).css('color','white')
+	$(boton).css('text-shadow','5px 0 5px #7e71b1, -5px 0 5px #7e71b1, 0 5px 5px #7e71b1, 0 -5px 5px #7e71b1')
+	}
+	
+function salir7(boton){
+	$(boton).css('color','#7e71b1')
+	$(boton).css('text-shadow','0 0 0 #000000')
+	}
+	
+
+function inicio(){
+	location.href='/inicio'
+	}
+	
+function diseno(){
+	location.href='/diseno'
+	}
+	
+function aplicaciones(){
+	location.href='/aplicaciones'
+	}
+	
+function clientes(){
+	location.href='/clientes'
+	}
+	
+function contacto(){
+	location.href='/contacto'
+	}
+	
+function nosotros(){
+	location.href='/nosotros'
+	}
+	
+function adminves(){
+	location.href='/inicioadminves'
+	}
+	
+function mostrarcli(caja,id2){
+	$('.texcli1').fadeOut(100)
+	$(id2).show(1000)
+	setTimeout("mostrarcli2("+caja.id+")",1300);
+	}
+	
+function mostrarcli2(id){
+	$(id).fadeIn(800)
+	}
+	
+function mostrarcliinicio(id){
+	$(id).fadeIn(3000)
+	}
+	
+function cerrarpreinicio(a){
+	$(a).fadeOut(500)
+	}
+	
+function mostrarcli4(id){
+	$(id).fadeIn(50)
+	}
+	
+function mostrarcli5(id){
+	$('.cuadrostextoapli').fadeOut(100)
+	$('#textoubuntu').fadeOut(100)
+	$(id).fadeIn(1500)
+	}
+	
+function sigiente1(id,id2){
+	$('.texcli1').fadeOut(800)
+	$(id2).fadeIn(800)
+	}
+	
+function sigiente2(id){
+	$('.textosnosotros').fadeOut(800)
+	$(id).fadeIn(800)
+	}
+	
+function mostrarcli3(id){
+	$('.textodiseno').fadeOut(800)
+	$(id).fadeIn(800)
+	}	
+	
+function cerrarcajacli(caja,caja2){
+	$(caja).fadeOut(800)
+	setTimeout("cerrarcajacli2("+caja2.id+")",1300);
+	}
+	
+function cerrarcajacli2(caja){
+	$(caja).hide(800)
+	}
+	
+function cerrarpre(a){
+	$(a).fadeOut(1000)
+	}
+
+function presentacion1(a){
+	$('#botonenpre').css('display','none')
+	$('#botonenpre2').css('display','inline')
+	$('#botonplay').css('display','none')
+	$('#botonplay2').css('display','inline')
+	$('#pantallaapagada').css('display','none')
+	$('#pantallanegra').css('display','inline')
+	setTimeout("mostrarcli3(prinpre)",1000);
+	}
+	
+function presentacionapagar(a){
+	$('#botonenpre2').css('display','none')
+	$('#botonenpre').css('display','inline')
+	$('#botonplay2').css('display','none')
+	$('#botonplay').css('display','inline')
+	$('#pantallaapagada').css('display','inline')
+	$('.pre3').css('display','none')
+	$('.pre2').css('display','none')
+	$('.pre1').css('display','none')
+	$('#prinpre').css('display','none')
+	$('#pantallanegra').css('display','none')
+	clearTimeout(uno)
+	clearTimeout(dos)
+	clearTimeout(tre)
+	clearTimeout(cua)
+	clearTimeout(cin)
+	clearTimeout(sei)
+	clearTimeout(sie)
+	clearTimeout(och)
+	clearTimeout(nue)
+	clearTimeout(diez)
+	clearTimeout(doc)
+	clearTimeout(trece)
+	clearTimeout(catorce)
+	clearTimeout(quince)
+	clearTimeout(dieciseis)
+	clearTimeout(otra)
+	clearTimeout(otra2)
+	}
+	
+function encenderled(){
+	$('#prese3').fadeOut(800)
+	$('#ledprese3').fadeIn(800)
+	quince=setTimeout("apagarled()",500);
+	}
+	
+function apagarled(){
+	$('#prese3').fadeIn(800)
+	$('#ledprese3').fadeOut(800)
+	dieciseis=setTimeout("encenderled()",500);
+	}
+	
+function encenderneon(a,b,c){
+	$(a).fadeIn(100)
+	setTimeout("$("+a.id+").fadeOut(20)",20);
+	setTimeout("$("+a.id+").fadeIn(20)",40);
+	setTimeout("$("+a.id+").fadeOut(20)",60);
+	setTimeout("$("+a.id+").fadeIn(700)",80);
+	$(b).fadeIn(100)
+	setTimeout("$("+b.id+").fadeOut(20)",20);
+	setTimeout("$("+b.id+").fadeIn(20)",40);
+	setTimeout("$("+b.id+").fadeOut(20)",60);
+	setTimeout("$("+b.id+").fadeIn(700)",80);
+	$(c).fadeIn(100)
+	setTimeout("$("+c.id+").fadeOut(20)",20);
+	setTimeout("$("+c.id+").fadeIn(20)",40);
+	setTimeout("$("+c.id+").fadeOut(20)",60);
+	setTimeout("$("+c.id+").fadeIn(700)",80);
+	quince=setTimeout("apagarneon("+a.id+","+b.id+","+c.id+")",10000);
+	}
+	
+function apagarneon(a,b,c){
+	$(a).fadeOut(700)
+	$(b).fadeOut(700)
+	$(c).fadeOut(700)
+	dieciseis=setTimeout("encenderneon("+a.id+","+b.id+","+c.id+")",2000);
+	}
+	
+function presentacion2(a){
+	uno=setTimeout("cerrarpre(prinpre)",1000);
+	sie=setTimeout("mostrarcli3(pin1)",2000);
+	och=setTimeout("mostrarcli3(pin2)",3000);
+	nue=setTimeout("mostrarcli3(pin3)",4000);
+	diez=setTimeout("mostrarcli3(pin4)",6000);
+	doc=setTimeout("cerrarpre('.pre2')",8000);
+	dos=setTimeout("mostrarcli3(fondopre1)",10000);
+	otra=setTimeout("$('#pantallanegra').css('display','none')",10000)
+	tre=setTimeout("mostrarcli3(letraspre1)",11000);
+	cua=setTimeout("mostrarcli3(letraspre2)",12500);
+	cin=setTimeout("mostrarcli3(logopre1)",14000);
+	sei=setTimeout("cerrarpre('.pre1')",16000);
+	otra2=setTimeout("$('#pantallanegra').css('display','inline')",16000)
+	trece=setTimeout("mostrarcli3(prese3)",17000);
+	catorce=setTimeout("encenderled()",18000);
+	}
+	
+function presentacion3(a){
+	$('.pre1').fadeOut(100)
+	$('.pre2').fadeOut(100)
+	
+	}
+	
+function aplica(){
+	$('#tituloaplicaciones').slideDown(2500)
+	}
+	
+function diseno2(){
+	$('.textodiseno').fadeOut(800)
+	$('#cajatextodiseno').slideDown(2500)
+	}
+	
+function cargar() {
+	$('#div_cargando').fadeOut(300)
+	}
